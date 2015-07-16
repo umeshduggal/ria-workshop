@@ -12,4 +12,11 @@ class MainController < ApplicationController
       format.js
     end
   end
+
+  def user_info
+    Rails.logger.info "******"
+    Rails.logger.info params.inspect
+    Rails.logger.info "******"
+    render nothing: true
+  end
 end

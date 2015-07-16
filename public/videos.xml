@@ -14,42 +14,42 @@
          <duration>2m 3s</duration>
          <lock>false</lock>
          <link>132265498</link>
-         <questionHtml>1.2_profile_margin.html</questionHtml>
+         <questionHtml> http://realinvesting.militellocapital.com/acton/form/15582/0006:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
          <title>How to grow revenue</title>
          <duration>2m 3s</duration>
          <lock>false</lock>
          <link>132265498</link>
-         <questionHtml>1.3_how_to_grow_revenue.html</questionHtml>
+         <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0015:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
          <title>Market Returns</title>
          <duration>2m 3s</duration>
          <lock>true</lock>
          <link>131077537</link>
-         <questionHtml>market_returns.html</questionHtml>
+         <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/000a:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
          <title>Acquiring new business</title>
          <duration>2m 3s</duration>
          <lock>true</lock>
          <link>131077537</link>
-         <questionHtml>blank.html</questionHtml>
+         <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/000c:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
          <title>Business from whom?</title>
          <duration>2m 3s</duration>
          <lock>true</lock>
          <link>131077537</link>
-         <questionHtml>blank.html</questionHtml>
+         <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/000d:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
          <title>Firm’s Client Pyramid</title>
          <duration>2m 3s</duration>
          <lock>true</lock>
          <link>131077537</link>
-         <questionHtml>blank.html</questionHtml>
+         <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/000e:d-0001/0/index.htm</questionHtml>
       </video>
        <video>
          <title>Plight of the RIA, What we learned</title>
@@ -73,42 +73,42 @@
       <duration>2m 3s</duration>
       <lock>false</lock>
       <link>131077537</link>
-      <questionHtml>2.2_What_do_we_know_part1.html</questionHtml>
+      <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/000f:d-0001/0/index.htm</questionHtml>
    </video>
    <video>
       <title>What do we know? Part 2</title>
       <duration>2m 3s</duration>
       <lock>true</lock>
       <link>131077537</link>
-      <questionHtml>blank.html</questionHtml>
+      <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0011:d-0001/0/index.htm</questionHtml>
    </video>
    <video>
       <title>Firms’ client pyramid</title>
       <duration>2m 3s</duration>
       <lock>true</lock>
       <link>131077537</link>
-      <questionHtml>blank.html</questionHtml>
+      <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0010:d-0001/0/index.htm</questionHtml>
    </video>
    <video>
       <title>Competition for HNWI</title>
       <duration>2m 3s</duration>
       <lock>true</lock>
       <link>131077537</link>
-      <questionHtml>blank.html</questionHtml>
+      <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0012:d-0001/0/index.htm</questionHtml>
    </video>
    <video>
       <title>Branding Credibility </title>
       <duration>2m 3s</duration>
       <lock>true</lock>
       <link>131077537</link>
-      <questionHtml>blank.html</questionHtml>
+      <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0014:d-0001/0/index.htm</questionHtml>
    </video>
    <video>
       <title>How do you differentiate?</title>
       <duration>2m 3s</duration>
       <lock>true</lock>
       <link>131077537</link>
-      <questionHtml>blank.html</questionHtml>
+      <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0013:d-0001/0/index.htm</questionHtml>
    </video>
    <video>
       <title>Unit Recap</title>
@@ -123,45 +123,44 @@
       <video>
          <title>2D Conventional Approach</title>
          <duration>2m 3s</duration>
-         <lock>true</lock>
+         <lock>false</lock>
          <link>131077537</link>
-         <questionHtml>blank.html</questionHtml>
+         <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/001b:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
-         <title>A merger of what they know best with what you know 
-best</title>
+         <title>A merger of what they know best with what you know best</title>
+         <duration>2m 3s</duration>
+         <lock>false</lock>
+         <link>131077537</link>
+         <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0017:d-0001/0/index.htm</questionHtml>
+      </video>
+      <video>
+         <title>The Militello Model</title>
          <duration>2m 3s</duration>
          <lock>true</lock>
          <link>131077537</link>
-         <questionHtml>blank.html</questionHtml>
-      </video>
-      <video>
-         <title>The Militello Model </title>
-         <duration>2m 3s</duration>
-         <lock>true</lock>
-         <link>131077537</link>
-         <questionHtml>blank.html</questionHtml>
+         <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0018:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
          <title>Liquidity Portfolio</title>
          <duration>2m 3s</duration>
          <lock>true</lock>
          <link>131077537</link>
-         <questionHtml>blank.html</questionHtml>
+         <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0019:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
          <title>Wealth Creation</title>
          <duration>2m 3s</duration>
          <lock>true</lock>
          <link>131077537</link>
-         <questionHtml>blank.html</questionHtml>
+         <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/001a:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
          <title>Job of the scarce resource</title>
          <duration>2m 3s</duration>
          <lock>true</lock>
          <link>131077537</link>
-         <questionHtml>blank.html</questionHtml>
+         <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/001b:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
          <title>Unit Recap</title>

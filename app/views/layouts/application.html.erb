@@ -78,7 +78,10 @@
       </footer>
 
     </div> <!-- /container -->
- <div id="modal-window1" class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>
- <div class="modal bootstrap-modal fade" id="modal-window" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false">Loading...</div>
+   <%= modal_dialog id: "modal-window",
+         header: { show_close: true, dismiss: 'modal', title: 'Modal header' },
+         body:   { content: 'This is the body' },
+         footer: { content: content_tag(:button, 'Save', class: 'btn') } %>
+ 
   </body>
 </html>

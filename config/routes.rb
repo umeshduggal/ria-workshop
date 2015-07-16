@@ -57,6 +57,7 @@ Rails.application.routes.draw do
   #   end
   get 'questions' => 'main#questions'
   get "lock_video" => 'main#lock_video', :as => :lock_video
+  post "user_info" => 'main#user_info', :as => :user_info
 
   root 'main#index'
 end

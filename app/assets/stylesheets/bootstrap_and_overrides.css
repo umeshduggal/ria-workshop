@@ -142,3 +142,9 @@ input {
 .list-unstyled {
   color: grey;
 }
+input {
+  margin-top: 0px;
+}
+.modal.fade.in {
+  top: 20%;
+}

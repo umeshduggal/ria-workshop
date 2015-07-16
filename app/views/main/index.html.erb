@@ -77,12 +77,7 @@
                 </div>
                 <!--col-md-4-->
                 <div class="col-md-12 activity">Activity - Change The Conversation - Competition</div>
-                <%= content_tag :a, "Modal", href: "#modal", class: 'btn', data: {toggle: 'modal'} %>
 
-<%= modal_dialog id: "modal",
-         header: { show_close: true, dismiss: 'modal', title: 'Modal header' },
-         body:   { content: 'This is the body' },
-         footer: { content: content_tag(:button, 'Save', class: 'btn') } %>
                 <iframe id="question_block" src="blank.html" class="col-md-12 que_box" width="500" height="350" > </iframe> 
                 <!-- <div id= "question_block" class="col-md-12 que_box">
                       <div class="col-md-12">How many SEC-registered investment advisors are in your zip code?</div>
@@ -109,8 +104,7 @@
                 
             </div><!--col-md-9-->
         </div><!--row-->
-       
-<script type="text/javascript">
+      <script type="text/javascript">
 	function setVideo(link, question, video_title, section_title) {	
 		var player_link = "//player.vimeo.com/video/";
     	document.getElementById('vimeo-player').src = player_link + link;
@@ -122,10 +116,14 @@
             document.getElementById("question_block").contentDocument.body.style.marginleft="20px";
         });
         jQuery("#video_title").html(video_title);
+        jQuery("#video_title").show();
         jQuery("#section_title").html(section_title);
+        jQuery("#section_title").show();
     		//jQuery("#question_block").html("<%= escape_javascript(render(:partial => 'main/profile_margin')) %>");
 	}   
 $(document).ready(function () {
 	setVideo("<%= @video_link_id %>");
+    jQuery("#video_title").hide();
+    jQuery("#section_title").hide();
 });
 </script>
