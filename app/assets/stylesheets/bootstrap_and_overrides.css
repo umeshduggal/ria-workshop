@@ -1,0 +1,144 @@
+/*
+  =require twitter-bootstrap-static/bootstrap
+
+  Use Font Awesome icons (default)
+  To use Glyphicons sprites instead of Font Awesome, replace with "require twitter-bootstrap-static/sprites"
+  =require twitter-bootstrap-static/fontawesome
+  */
+
+  @charset "utf-8";
+/* CSS Document */
+
+.logo{ background:#017dc5;  padding-top:15px; padding-bottom:10px;}
+
+.row_bg{ background:#017dc5;}
+
+.rgt_text{ background:#017dc5; padding-top:38px; padding-bottom:40px; font-size:36px; color:#fff;}
+
+
+.row_bg_1{ background:#ebebeb;}
+
+.menu{ padding:5px 0px;}
+
+.list a {
+  color: #000;
+  font-size: 17px;
+}
+
+.row_bg_2{ background-color:#017dc5;  }
+
+.nav.navbar-nav.list1 a {
+  color: #fff;
+}
+
+.mragn_0{ padding:0px;}
+ 
+.mragn_0 h4{ padding-left:10px;}
+
+.glo{ font-size:20px; margin: 5px 0px;}
+
+.col-md-12.box.mragn_0 {
+  font-size: 12px;
+}
+
+.sign_up {
+  font-size: 18px;
+  text-align: right;
+}
+input {
+  margin-top: 14%;
+  padding: 4% 0;
+  width: 100%;
+}
+.col-md-12.box {
+  background: #ededed none repeat scroll 0 0;
+}
+.col-md-3.left_list {
+  background: #ededed none repeat scroll 0 0;
+}
+.col-md-12.text-right.mragn_0.section3 {
+  color: grey;
+  font-weight: bold;
+}
+.col-md-12.box.mragn_0 {
+  border: 1px solid grey;
+  padding: 7px;
+}
+.ria_work {
+  border: 1px solid grey;
+  margin-bottom: 0;
+  padding: 10px;
+  color: grey;
+  float: left;
+  width: 100%;
+}
+.section_title {
+  margin-top: -1px;
+} 
+.text-right.copyright {
+  font-size: 19px;
+}
+
+.copyright
+{
+	color:#fff;	
+}
+.fa.fa-unlock
+{
+	transform: rotateY(180deg);	
+	  margin-left: -3px;
+	  margin-right:2px;
+	  font-size:13px;
+}
+.fa.fa-lock {
+  font-size: 13px;
+  margin-right: 4px;
+  transform: rotateY(180deg);
+}
+.col-md-4.text-center.textmore {
+  font-size: 20px;
+}
+.three_images
+{
+	border: 1px solid rgb(237, 234, 234);	
+}
+.list-unstyled.ish_one {
+  color: grey;
+  font-size: 17px;
+  margin-left: 70px;
+  text-align: left;
+}
+.list-unstyled.ishu {
+  color: grey;
+  font-size: 17px;
+  margin-left: 95px;
+  text-align: left;
+}
+.list-unstyled a{
+  color: grey;
+  font-size: 12px;
+  text-align: left;
+  cursor: pointer;
+}
+.activity
+{
+	font-size:20px;	
+}
+.col-md-12.que_box {
+  border: 1px solid rgb(237, 234, 234);
+  width: 99%;
+  margin-left: 1%;
+}
+.bread_crum {
+  border-radius: 5px;
+  background-color: rgb(203, 201, 201);
+  padding: 2px 7px !important;
+  margin: 10px 10px 10px 0px;
+}
+.list-inline {
+  padding: 10px;
+  text-align: left;
+}
+.list-unstyled {
+  color: grey;
+}
