@@ -8,45 +8,43 @@
 		<div class="row row_bg_2">
         	<div class="col-md-12">
             	<ul class="nav navbar-nav list1" id="bread">
-                    	<li><a class="bread_crum" href="/">RIA Workshop</a></li>
-                        <li><a class="bread_crum" id="section_title" href="#">The Plight Of The Ria</a></li>
-                       <li><a class="bread_crum" id="video_title" href="#">Overview</a></li>
+                    	<li><%= link_to 'RIA Workshop', root_url, :class => 'bread_crum' %></li>
+                        <li><%= link_to 'The Plight Of The Ria', '#', :class => 'bread_crum',:id=>"section_title" %></li>
+                       <li><%= link_to 'Overview', '#', :class => 'bread_crum',:id=>"video_title" %> </li>
                 </ul>      
             </div>
         </div>        
         
         <div class="row row_bg_3">
         	<div class="col-md-3 left_list">
-        		<h4 class="ria_work"><a href="/"> RIA Workshop Series </a></h4> 
+        		<h4 class="ria_work"><%= link_to 'RIA Workshop Series', root_url %></h4> 
         		<% @sections.each do |section| %>
                  <h4 class="ria_work section_title"><%= section["name"] %></h4>  
         			<div class="col-md-12 box mragn_0">    
 
-	                <div class="col-md-10 mragn_0">
+	                <div class="col-md-12 mragn_0">
 	                <ul class="list-unstyled">
 	                	<% section["video"].each do |video| %>
-	                		<li>
+	                		<li class="pull-left">
 	                			<% if (video['lock'] == 'true') %>
                                 <i class="fa <%= video['lock'] == 'true' ? 'fa-lock' : 'fa-unlock' %>"></i> <%= link_to video["title"], lock_video_path,  {:remote => true, 'data-toggle' =>  "modal", 'data-target' => '#modal-window'}  %>
 		                			
 	                			<% else %>
+                                    <i class="fa <%= video['lock'] == 'true' ? 'fa-lock' : 'fa-unlock' %>"></i>
 	                				<a onclick="setVideo(<%= video['link'] %>, '<%= video['questionHtml'] %>','<%= video['title'] %>','<%= section["name"] %>');">
-	                				<i class="fa <%= video['lock'] == 'true' ? 'fa-lock' : 'fa-unlock' %>"></i><%=video["title"] %>
+	                				    <%=video["title"] %>
 	                				</a>
 	                			<% end %>  
-	                			
+	                			<span class="pull-right">
+                                    <%= video["duration"] %>
+                                </span>
+
 	                		</li>
 	                	<% end %>
 	            	 </ul>
 	                </div>
-	                <div class="col-md-2 mragn_0">
-                	<ul class="list-unstyled">
-                		<% section["video"].each do |video| %>
-	                		<li><%= video["duration"] %></li>
-	                	<% end %>
-                	</ul>    
-                	</div>
-                <div class="col-md-12 text-right mragn_0 section3">Section Total-20m21s</div>
+	               
+                <div class="col-md-12 text-right mragn_0 section3">Section Total-<%= section["total"] %></div>
                 </div>
         		<% end %>
             </div><!--col md 3-->
@@ -64,7 +62,7 @@
 
                     </ul>
                 </div>
-                <div class="col-md-6 text-center textmore">
+                <div class="col-md-6 text-center textmore padding-right-0">
                 	<ul class="list-unstyled list-inline three_images">
                     	<li><img src="/assets/two.png"/></li>
                         <li>Related Topics</li>
@@ -76,7 +74,7 @@
                     </ul>
                 </div>
                 <!--col-md-4-->
-                <div class="col-md-12 activity">Activity - Change The Conversation - Competition</div>
+                <div id="activity_container" class="col-md-12 activity">Activity - Change The Conversation - Competition</div>
 
                 <iframe id="question_block" src="blank.html" class="col-md-12 que_box" width="500" height="350" > </iframe> 
                 <!-- <div id= "question_block" class="col-md-12 que_box">
@@ -109,8 +107,15 @@
 		var player_link = "//player.vimeo.com/video/";
     	document.getElementById('vimeo-player').src = player_link + link;
     	//question = question || false;
-    	if(question)
+    	if(question != 'blank.html'){
             jQuery("#question_block").attr("src",question);
+            jQuery("#activity_container").show();
+            jQuery("#question_block").show();
+        }
+        else {
+            jQuery("#activity_container").hide();
+            jQuery("#question_block").hide();
+        }
         jQuery('iframe#question_block').load(function() {
             document.getElementById("question_block").contentDocument.body.style.float="left";
             document.getElementById("question_block").contentDocument.body.style.marginleft="20px";
@@ -125,5 +130,10 @@ $(document).ready(function () {
 	setVideo("<%= @video_link_id %>");
     jQuery("#video_title").hide();
     jQuery("#section_title").hide();
+    jQuery("#activity_container").hide();
+    jQuery("#question_block").hide();
+    $('body').on('click', '#addSubmit', function() {
+      return $('#modal-window').modal('hide');
+    });
 });
 </script>

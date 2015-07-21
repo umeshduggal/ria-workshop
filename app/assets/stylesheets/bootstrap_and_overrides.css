@@ -11,14 +11,20 @@
 
 .logo{ background:#017dc5;  padding-top:15px; padding-bottom:10px;}
 
-.row_bg{ background:#017dc5;}
-
+.row_bg{ background:#017dc5; position: relative; }
+.row_bg .col-md-7{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 10px;
+}
+footer .row_bg{ margin-top: 10px;}
 .rgt_text{ background:#017dc5; padding-top:38px; padding-bottom:40px; font-size:36px; color:#fff;}
 
 
 .row_bg_1{ background:#ebebeb;}
 
-.menu{ padding:5px 0px;}
+.menu{ padding:1px 0px;}
 
 .list a {
   color: #000;
@@ -55,6 +61,7 @@ input {
 }
 .col-md-3.left_list {
   background: #ededed none repeat scroll 0 0;
+  padding-bottom: 10px;
 }
 .col-md-12.text-right.mragn_0.section3 {
   color: grey;
@@ -147,4 +154,13 @@ input {
 }
 .modal.fade.in {
   top: 20%;
+}
+#question_block {
+  margin-bottom: 10px;
+}
+.list-unstyled .pull-left {
+  width: 100%;
+}
+.padding-right-0 {
+  padding-right: 0px;
 }

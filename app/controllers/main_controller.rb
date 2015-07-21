@@ -3,7 +3,7 @@ class MainController < ApplicationController
   	doc = Nokogiri::XML(File.open("#{Rails.root}/public/videos.xml")) 
   	sectionsHash = Hash.from_xml(doc.to_s)
   	@sections = sectionsHash["sections"]["section"]
-  	@video_link_id = "131077537"
+  	@video_link_id = "133981100"
   end
 
   def lock_video
