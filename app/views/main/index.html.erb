@@ -16,10 +16,20 @@
         </div>        
         
         <div class="row row_bg_3">
-        	<div class="col-md-3 left_list">
-        		<h4 class="ria_work"><%= link_to 'RIA Workshop Series', root_url %></h4> 
+        	<div class="col-md-4 left_list">
+        		<h5 class="ria_work">RIA Workshop Series</h5>
+                    <div class="col-md-12 box mragn_0">    
+
+                        <div class="col-md-12 mragn_0">
+                        <ul class="list-unstyled">
+                            <li class="pull-left">
+                                <%= link_to '<i class="fa fa-lg fa-play-circle"> </i> Course Overview'.html_safe, root_url, :class => 'course-title' %> 
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
         		<% @sections.each do |section| %>
-                 <h4 class="ria_work section_title"><%= section["name"] %></h4>  
+                 <h5 class="ria_work section_title"><%= section["name"] %></h5>  
         			<div class="col-md-12 box mragn_0">    
 
 	                <div class="col-md-12 mragn_0">
@@ -27,56 +37,30 @@
 	                	<% section["video"].each do |video| %>
 	                		<li class="pull-left">
 	                			<% if (video['lock'] == 'true') %>
-                                <i class="fa <%= video['lock'] == 'true' ? 'fa-lock' : 'fa-unlock' %>"></i> <%= link_to video["title"], lock_video_path,  {:remote => true, 'data-toggle' =>  "modal", 'data-target' => '#modal-window'}  %>
+
+                                <i class="fa fa-lg <%= video['lock'] == 'true' ? 'fa-lock' : 'fa-unlock' %>"></i> <%= link_to video["title"], lock_video_path,  {:remote => true, 'data-toggle' =>  "modal", 'data-target' => '#modal-window'}  %>
 		                			
 	                			<% else %>
-                                    <i class="fa <%= video['lock'] == 'true' ? 'fa-lock' : 'fa-unlock' %>"></i>
+                                    <i class="fa fa-lg <%= video['lock'] == 'true' ? 'fa-lock' : video['title'] == 'Unit Overview' ? 'fa-play-circle' : 'fa-unlock' %>"></i>
 	                				<a onclick="setVideo(<%= video['link'] %>, '<%= video['questionHtml'] %>','<%= video['title'] %>','<%= section["name"] %>');">
 	                				    <%=video["title"] %>
 	                				</a>
 	                			<% end %>  
-	                			<span class="pull-right">
-                                    <%= video["duration"] %>
-                                </span>
-
+	                			
 	                		</li>
 	                	<% end %>
 	            	 </ul>
 	                </div>
-	               
-                <div class="col-md-12 text-right mragn_0 section3">Section Total-<%= section["total"] %></div>
                 </div>
         		<% end %>
             </div><!--col md 3-->
-            <div class="col-md-9 mragn_0">
-            	<iframe id="vimeo-player" src="//player.vimeo.com/video/132265498" width="100%" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <div class="col-md-8 mragn_0">
+            	<iframe id="vimeo-player" src="//player.vimeo.com/video/132265498" width="96%" height="350" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-                <div class="col-md-6 text-center textmore">
-					<ul class="list-unstyled list-inline three_images">
-                    	<li><img src="/assets/one.png"/></li>
-                        <li>More on this topic</li>
-                        <ul class="list-unstyled ish_one">
-                          <li>Link</li>
-                          <li>Link</li>
-                        </ul>
-
-                    </ul>
-                </div>
-                <div class="col-md-6 text-center textmore padding-right-0">
-                	<ul class="list-unstyled list-inline three_images">
-                    	<li><img src="/assets/two.png"/></li>
-                        <li>Related Topics</li>
-                        <ul class="list-unstyled ish_one">
-                          <li>Link</li>
-                          <li>Link</li>
-                        </ul>
-
-                    </ul>
-                </div>
                 <!--col-md-4-->
-                <div id="activity_container" class="col-md-12 activity">Activity - Change The Conversation - Competition</div>
+                <div id="activity_container" class="col-md-12 activity">Test Your Knowledge On This Section</div>
 
-                <iframe id="question_block" src="blank.html" class="col-md-12 que_box" width="500" height="350" > </iframe> 
+                <iframe id="question_block" src="blank.html" class="col-md-12 que_box" width="500" height="350"> </iframe> 
                 <!-- <div id= "question_block" class="col-md-12 que_box">
                       <div class="col-md-12">How many SEC-registered investment advisors are in your zip code?</div>
 					                      <table width="200" border="0">

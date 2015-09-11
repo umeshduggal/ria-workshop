@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sections>
    <section>
-      <name>The Plight Of The Ria</name>
+      <name>Unit I - The Plight Of The Ria</name>
       <total>20m21s</total>
       <video>
-         <title>Overview</title>
+         <title>Unit Overview</title>
          <duration>2m 3s</duration>
          <lock>false</lock>
          <link>132427926</link>
          <questionHtml>blank.html</questionHtml>
       </video>
       <video>
-         <title>Profit Margins, RIA</title>
+         <title>Profit Margins</title>
          <duration>2m 3s</duration>
          <lock>false</lock>
          <link>132265498</link>
-         <questionHtml> http://realinvesting.militellocapital.com/acton/form/15582/0006:d-0001/0/index.htm</questionHtml>
+         <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0006:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
          <title>How to grow revenue</title>
@@ -53,7 +53,7 @@
          <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/000e:d-0001/0/index.htm</questionHtml>
       </video>
        <video>
-         <title>Plight of the RIA, What we learned</title>
+         <title>Unit Review - What we learned</title>
          <duration>2m 3s</duration>
          <lock>true</lock>
          <link>131077537</link>
@@ -61,38 +61,38 @@
       </video>
    </section>
    <section>
-   <name>The Profile Of The HNWI</name>
+   <name>Unit II - Profile Of the High Net Worth Investor</name>
    <total>18m21s</total>
    <video>
-      <title>Overview</title>
+      <title>Unit Overview</title>
       <duration>2m 3s</duration>
       <lock>false</lock>
       <link>131077537</link>
       <questionHtml>blank.html</questionHtml>
    </video>
    <video>
-      <title>What do we know? Part 1</title>
+      <title>What do we know Part I</title>
       <duration>2m 3s</duration>
       <lock>false</lock>
       <link>131077537</link>
       <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/000f:d-0001/0/index.htm</questionHtml>
    </video>
    <video>
-      <title>What do we know? Part 2</title>
+      <title>What do we know Part II</title>
       <duration>2m 3s</duration>
       <lock>true</lock>
       <link>131077537</link>
       <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0011:d-0001/0/index.htm</questionHtml>
    </video>
    <video>
-      <title>Firms’ client pyramid</title>
+      <title>Firms’ client pyramid II</title>
       <duration>2m 3s</duration>
       <lock>true</lock>
       <link>131077537</link>
       <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0010:d-0001/0/index.htm</questionHtml>
    </video>
    <video>
-      <title>Competition for HNWI</title>
+      <title>Competition for the HNWI</title>
       <duration>2m 3s</duration>
       <lock>true</lock>
       <link>131077537</link>
@@ -113,7 +113,7 @@
       <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0013:d-0001/0/index.htm</questionHtml>
    </video>
    <video>
-      <title>Unit Recap</title>
+      <title>Unit Review - What we learned</title>
       <duration>2m 3s</duration>
       <lock>true</lock>
       <link>131077537</link>
@@ -121,7 +121,7 @@
    </video>
    </section>
    <section>
-      <name>Change The Conversation</name>
+      <name>Unit III - Change The Conversation</name>
       <total>25m21s</total>
       <video>
          <title>2D Conventional Approach</title>
@@ -131,7 +131,7 @@
          <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/001b:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
-         <title>A merger of what they know best with what you know best</title>
+         <title>A Merger of Bests</title>
          <duration>2m 3s</duration>
          <lock>false</lock>
          <link>131077537</link>
@@ -159,14 +159,14 @@
          <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/001a:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
-         <title>Job of the scarce resource</title>
+         <title>The Job of the scarce resource</title>
          <duration>2m 3s</duration>
          <lock>true</lock>
          <link>131077537</link>
          <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/001b:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
-         <title>Unit Recap</title>
+         <title>Unit Review - What we learned</title>
          <duration>2m 3s</duration>
          <lock>true</lock>
          <link>131077537</link>
