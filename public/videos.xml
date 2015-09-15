@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sections>
    <section>
-      <name>Unit I - The Plight Of The Ria</name>
+      <name>Unit I - The Plight Of The RIA</name>
       <total>20m21s</total>
       <video>
          <title>Unit Overview</title>
          <duration>2m 3s</duration>
          <lock>false</lock>
-         <link>132427926</link>
+         <link>135890441</link>
          <questionHtml>blank.html</questionHtml>
       </video>
       <video>
          <title>Profit Margins</title>
          <duration>2m 3s</duration>
          <lock>false</lock>
-         <link>132265498</link>
+         <link>133388870</link>
          <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0006:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
          <title>How to grow revenue</title>
          <duration>2m 3s</duration>
-         <lock>false</lock>
+         <lock>true</lock>
          <link>132265498</link>
          <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0015:d-0001/0/index.htm</questionHtml>
       </video>
@@ -41,22 +41,22 @@
       <video>
          <title>Business from whom?</title>
          <duration>2m 3s</duration>
-         <lock>true</lock>
-         <link>131077537</link>
+         <lock>false</lock>
+         <link>133791771</link>
          <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/000d:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
          <title>Firm’s Client Pyramid</title>
          <duration>2m 3s</duration>
-         <lock>true</lock>
-         <link>131077537</link>
+         <lock>false</lock>
+         <link>134883057</link>
          <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/000e:d-0001/0/index.htm</questionHtml>
       </video>
        <video>
          <title>Unit Review - What we learned</title>
          <duration>2m 3s</duration>
-         <lock>true</lock>
-         <link>131077537</link>
+         <lock>false</lock>
+         <link>135891486</link>
          <questionHtml>blank.html</questionHtml>
       </video>
    </section>
@@ -67,14 +67,14 @@
       <title>Unit Overview</title>
       <duration>2m 3s</duration>
       <lock>false</lock>
-      <link>131077537</link>
+      <link>135896214</link>
       <questionHtml>blank.html</questionHtml>
    </video>
    <video>
       <title>What do we know Part I</title>
       <duration>2m 3s</duration>
       <lock>false</lock>
-      <link>131077537</link>
+      <link>136101360</link>
       <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/000f:d-0001/0/index.htm</questionHtml>
    </video>
    <video>
@@ -115,8 +115,8 @@
    <video>
       <title>Unit Review - What we learned</title>
       <duration>2m 3s</duration>
-      <lock>true</lock>
-      <link>131077537</link>
+      <lock>false</lock>
+      <link>135894545</link>
       <questionHtml>blank.html</questionHtml>
    </video>
    </section>
@@ -140,8 +140,8 @@
       <video>
          <title>The Militello Model</title>
          <duration>2m 3s</duration>
-         <lock>true</lock>
-         <link>131077537</link>
+         <lock>false</lock>
+         <link>135877704</link>
          <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0018:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
@@ -168,8 +168,8 @@
       <video>
          <title>Unit Review - What we learned</title>
          <duration>2m 3s</duration>
-         <lock>true</lock>
-         <link>131077537</link>
+         <lock>false</lock>
+         <link>135901599</link>
          <questionHtml>blank.html</questionHtml>
       </video>
    </section>
