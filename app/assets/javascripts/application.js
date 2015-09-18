@@ -15,4 +15,5 @@
 //= require twitter/bootstrap
 //= require twitter/bootstrap/modal
 //= require turbolinks
+//= require jquery.cookie
 //= require_tree .

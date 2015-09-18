@@ -4,6 +4,7 @@
       <name>Unit I - The Plight Of The RIA</name>
       <total>20m21s</total>
       <video>
+         <id>1</id>
          <title>Unit Overview</title>
          <duration>2m 3s</duration>
          <lock>false</lock>
@@ -11,6 +12,7 @@
          <questionHtml>blank.html</questionHtml>
       </video>
       <video>
+         <id>2</id>
          <title>Profit Margins</title>
          <duration>2m 3s</duration>
          <lock>false</lock>
@@ -18,6 +20,7 @@
          <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0006:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
+         <id>3</id>
          <title>How to grow revenue</title>
          <duration>2m 3s</duration>
          <lock>true</lock>
@@ -25,6 +28,7 @@
          <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0015:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
+         <id>4</id>
          <title>Market Returns</title>
          <duration>2m 3s</duration>
          <lock>true</lock>
@@ -32,6 +36,7 @@
          <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/000a:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
+         <id>5</id>
          <title>Acquiring new business</title>
          <duration>2m 3s</duration>
          <lock>true</lock>
@@ -39,6 +44,7 @@
          <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/000c:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
+         <id>6</id>
          <title>Business from whom?</title>
          <duration>2m 3s</duration>
          <lock>false</lock>
@@ -46,6 +52,7 @@
          <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/000d:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
+         <id>7</id>
          <title>Firm’s Client Pyramid</title>
          <duration>2m 3s</duration>
          <lock>false</lock>
@@ -53,6 +60,7 @@
          <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/000e:d-0001/0/index.htm</questionHtml>
       </video>
        <video>
+         <id>8</id>
          <title>Unit Review - What we learned</title>
          <duration>2m 3s</duration>
          <lock>false</lock>
@@ -64,6 +72,7 @@
    <name>Unit II - Profile Of the High Net Worth Investor</name>
    <total>18m21s</total>
    <video>
+      <id>9</id>
       <title>Unit Overview</title>
       <duration>2m 3s</duration>
       <lock>false</lock>
@@ -71,6 +80,7 @@
       <questionHtml>blank.html</questionHtml>
    </video>
    <video>
+      <id>10</id>
       <title>What do we know Part I</title>
       <duration>2m 3s</duration>
       <lock>false</lock>
@@ -78,6 +88,7 @@
       <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/000f:d-0001/0/index.htm</questionHtml>
    </video>
    <video>
+      <id>11</id>
       <title>What do we know Part II</title>
       <duration>2m 3s</duration>
       <lock>true</lock>
@@ -85,6 +96,7 @@
       <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0011:d-0001/0/index.htm</questionHtml>
    </video>
    <video>
+      <id>12</id>
       <title>Firms’ client pyramid II</title>
       <duration>2m 3s</duration>
       <lock>true</lock>
@@ -92,6 +104,7 @@
       <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0010:d-0001/0/index.htm</questionHtml>
    </video>
    <video>
+      <id>13</id>
       <title>Competition for the HNWI</title>
       <duration>2m 3s</duration>
       <lock>true</lock>
@@ -99,6 +112,7 @@
       <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0012:d-0001/0/index.htm</questionHtml>
    </video>
    <video>
+      <id>14</id>
       <title>Branding Credibility </title>
       <duration>2m 3s</duration>
       <lock>true</lock>
@@ -106,6 +120,7 @@
       <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0014:d-0001/0/index.htm</questionHtml>
    </video>
    <video>
+      <id>15</id>
       <title>How do you differentiate?</title>
       <duration>2m 3s</duration>
       <lock>true</lock>
@@ -113,6 +128,7 @@
       <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0013:d-0001/0/index.htm</questionHtml>
    </video>
    <video>
+      <id>16</id>
       <title>Unit Review - What we learned</title>
       <duration>2m 3s</duration>
       <lock>false</lock>
@@ -124,6 +140,7 @@
       <name>Unit III - Change The Conversation</name>
       <total>25m21s</total>
       <video>
+         <id>17</id>
          <title>2D Conventional Approach</title>
          <duration>2m 3s</duration>
          <lock>false</lock>
@@ -131,6 +148,7 @@
          <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/001b:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
+         <id>18</id>
          <title>A Merger of Bests</title>
          <duration>2m 3s</duration>
          <lock>false</lock>
@@ -138,6 +156,7 @@
          <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0017:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
+         <id>19</id>
          <title>The Militello Model</title>
          <duration>2m 3s</duration>
          <lock>false</lock>
@@ -145,6 +164,7 @@
          <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0018:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
+         <id>20</id>
          <title>Liquidity Portfolio</title>
          <duration>2m 3s</duration>
          <lock>true</lock>
@@ -152,6 +172,7 @@
          <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/0019:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
+         <id>21</id>
          <title>Wealth Creation</title>
          <duration>2m 3s</duration>
          <lock>true</lock>
@@ -159,6 +180,7 @@
          <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/001a:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
+         <id>22</id>
          <title>The Job of the scarce resource</title>
          <duration>2m 3s</duration>
          <lock>true</lock>
@@ -166,6 +188,7 @@
          <questionHtml>http://realinvesting.militellocapital.com/acton/form/15582/001b:d-0001/0/index.htm</questionHtml>
       </video>
       <video>
+         <id>23</id>
          <title>Unit Review - What we learned</title>
          <duration>2m 3s</duration>
          <lock>false</lock>

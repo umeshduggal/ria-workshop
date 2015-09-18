@@ -38,7 +38,7 @@
 	                		<li class="pull-left">
 	                			<% if (video['lock'] == 'true') %>
 
-                                <i class="fa fa-lg <%= video['lock'] == 'true' ? 'fa-lock' : 'fa-unlock' %>"></i> <%= link_to video["title"], lock_video_path,  {:remote => true, 'data-toggle' =>  "modal", 'data-target' => '#modal-window'}  %>
+                                <i class="fa fa-lg <%= video['lock'] == 'true' ? 'fa-lock' : 'fa-unlock' %>"></i> <%= link_to video["title"], lock_video_path( video["id"]), {:remote => true, 'data-toggle' =>  "modal", 'data-target' => '#modal-window'}  %>
 		                			
 	                			<% else %>
                                     <i class="fa fa-lg <%= video['lock'] == 'true' ? 'fa-lock' : video['title'] == 'Unit Overview' ? 'fa-play-circle' : 'fa-unlock' %>"></i>
@@ -109,15 +109,32 @@
         jQuery("#section_title").html(section_title);
         jQuery("#section_title").show();
     		//jQuery("#question_block").html("<%= escape_javascript(render(:partial => 'main/profile_margin')) %>");
-	}   
-$(document).ready(function () {
-	setVideo("<%= @video_link_id %>");
-    jQuery("#video_title").hide();
-    jQuery("#section_title").hide();
-    jQuery("#activity_container").hide();
-    jQuery("#question_block").hide();
-    $('body').on('click', '#addSubmit', function() {
-      return $('#modal-window').modal('hide');
+	}  
+
+    function updateCookies(videoId) {
+       // alert(videoId);
+        if ($.cookie('RequestedVideos')){
+            var json_str = $.cookie('RequestedVideos');
+            var arr = JSON.parse(json_str);
+            arr.push(videoId);
+            json_str = JSON.stringify(arr);
+            $.cookie('RequestedVideos', json_str, { expires: 365, path: '/' });    
+        } else {
+            var arr = [];
+            arr.push(videoId);
+            json_str = JSON.stringify(arr);
+            $.cookie('RequestedVideos', json_str, { expires: 365, path: '/' });    
+        }       
+
+    } 
+    $(document).ready(function () {
+    	setVideo("<%= @video_link_id %>");
+        jQuery("#video_title").hide();
+        jQuery("#section_title").hide();
+        jQuery("#activity_container").hide();
+        jQuery("#question_block").hide();
+        $('body').on('click', '#addSubmit', function() {
+          return $('#modal-window').modal('hide');
+        });
     });
-});
 </script>
