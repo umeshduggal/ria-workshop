@@ -3,7 +3,8 @@
 <%
   requestedIds = [];
   if (cookies[:RequestedVideos])
-    requestedIds = JSON.parse(cookies[:RequestedVideos]);
+    requestedIds = JSON.parse(cookies[:RequestedVideos])
+  end
 %>
 <% if (requestedIds.include?(params[:id].to_i)) %>
 <div class="modal-header">
