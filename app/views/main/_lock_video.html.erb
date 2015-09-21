@@ -1,6 +1,7 @@
   <div class="modal-dialog ">
     <div class="modal-content">
 <%
+  requestedIds = [];
   requestedIds = JSON.parse(cookies[:RequestedVideos])
 %>
 <% if (requestedIds.include?(params[:id].to_i)) %>
